@@ -69,7 +69,7 @@
 - 説明 (description)
 - カテゴリ (categories) <small>... games, utilities, travel, etc.</small>
 - デバイス (device) <small>... desktop, firefoxos, android-mobile, android-tablet</small>
-- アプリ種別 (app_type) <small>... hosted, packaed, privileged</small>
+- アプリ種別 (app_type) <small>... hosted, packaged, privileged</small>
 - マニフェスト URL (manifest_url)
 - レーティング情報 (ratings)
 - etc, etc.
