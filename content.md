@@ -22,7 +22,7 @@
 ## Firefox Marketplace がスゴい
 
 ---
-## 何がすごい？
+## 何がスゴい？
 ## <div class="fragment">公開っぷりがスゴい</div>
 
 ---
@@ -36,13 +36,17 @@
 ### 商業的な利用価値高い
 ### アプリマーケット情報
 
-- 色々使える
+- 色々と使える・・・
  - 市場調査
  - ASO: App Search Optimization
  - セキュリティ (アプリのフィルタリング)
 
 <br>
-### <div class="fragment">Firefox Marketplace API は<br>気前よく公開</div>
+### <div class="fragment strong">Firefox Marketplace API は<br>気前よく公開</div>
+
+---
+## Firefox Marketplace API
+## どんなかんじ？
 
 ---
 ## "Search" API
@@ -63,19 +67,18 @@
 - アイコン (icons)
 - 作成者 (author)
 - 説明 (description)
-- カテゴリ (categories) ... games, utilities, travel, etc.
-- デバイス (device) ... desktop, firefoxos, android-mobile, android-tablet
-- アプリ種別 (app_type) ... hosted, packaed, privileged
+- カテゴリ (categories) <small>... games, utilities, travel, etc.</small>
+- デバイス (device) <small>... desktop, firefoxos, android-mobile, android-tablet</small>
+- アプリ種別 (app_type) <small>... hosted, packaed, privileged</small>
 - マニフェスト URL (manifest_url)
 - レーティング情報 (ratings)
 - etc, etc.
 
 ---
-## さらに・・・
+# さらに・・・
 
 ---
-## ZIP でくれ！
-<br>
+# ZIP でくれ！
 <pre class="maro">
 　　　　　　　　　　 |;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ノ| 
 　　　　　　　　　　 |丶､ ;;; __;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;_,,: ィ";;_| 
@@ -99,16 +102,17 @@
 
 </pre>
 
-## <div class="zip">zipじゃ！</div>
+# <div class="zip">zipじゃ！</div>
 ## <div class="zip">zipを出さねば朝敵じゃ！</div>
 
 ---
 ### 日次ダンプデータを丸ごと落とせる
-### "Export" API
-
+## <div class="strong">"Export" API</div>
+<br>
 <pre class="api-query-container export">https://marketplace.cdn.mozilla.net/dumped-apps/tarballs/YYYY-MM-DD.tgz</pre>
 
-<div class="fragment">
+<br>
+<div class="fragment strong">
 <h2>気前がいい！</h2>
 <h2>まさにネ申</h2>
 </div>
@@ -121,7 +125,6 @@
 ## [www.firechart.info](http://www.firechart.info/)
 
 - Firefox Marketplace の情報をグラフで表示。
-- Export API の zip データを利用。
 
 <img src="assets/firechart.png" style="width:70%">
 
@@ -180,7 +183,7 @@
         　　　　　　　t　!;;;ﾘ　 　 _,,...,,_　　　　　_,,..,,_　 　 l;;;// 
         　　　　　　 　ﾞl ヾ;l 　:'ｨﾃﾍ9ﾝﾐ　　 ,: ',ｼﾋ9ﾝ､　　l;// 
         　　　　　　　　`ｰll!　　 ｀''==ヲ'　　l:.:^''==彡'"　,!ﾘﾉ 
-        　　　　　 　 　 　 ll　　　` '' "　　　l:.:.:` '' "　　,i;;l´           <div class="zip">ZIP...</div>
+        　　　　　 　 　 　 ll　　　` '' "　　　l:.:.:` '' "　　,i;;l´  
         　　　　　　　　　　li,　　　　　,r　.:　:.ヽ､　　　 ,:,り 
         　　　　　　　　　　 t、　　　/ ﾞｰ､　,r 'ﾞヽ　　/,K′ 
         　　　　　　　　　　　ゝ、　,:'　　　:~:　 　 }　// /ヽ、 
@@ -191,9 +194,12 @@
         　 ,, - ''"　　 丶､ ｀` ーゝ､ヽ.,＿,,ｨ"ェくユ- ''"　, ｨ" 
 </pre>
 
+<br>
+## <div class="zip">zip...</div>
+
 ---
 ## 全アプリ(パッケージ型)
-## ZIP で落とせます
+## <div class="strong">ZIP で落とせます</div>
 <br>
 
 1. Export API で全アプリの情報を取得。
@@ -211,13 +217,13 @@
 
 ---
 ## Firefox Marketplace
-## for Tizen
+## <div class="fragment strong">for Tizen</div>
 
 ---
 ### どんなもの？
 - Firefox Marketplace API を使った疑似ホーム画面アプリ。
 - Firefox のホスト型アプリのランチャー。
-	- Tizen アプリとしてインストールできる訳ではありません。
+	- Tizen アプリとしてインストールできる訳ではない。
 
 ---
 # デモ
