@@ -228,7 +228,8 @@
 ---
 # デモ
 
-<button id="start-demo" type="button">Start</button>
+<!-- <button id="start-demo" type="button">Start</button> -->
+# ↓
 
 >>>
 #### Tizen にインストールされた
