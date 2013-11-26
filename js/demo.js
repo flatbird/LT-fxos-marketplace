@@ -4,5 +4,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   navigator.getUserMedia({video: true}, function(stream) {
     var video = document.getElementById('video-demo');
     video.src = window.URL.createObjectURL(stream);
-  }, function (err) { alert('Error:' + err); });
+  }, function (err) { 
+  	alert('Error: ' + err.name + ': ' + err.message);
+  });
 });
